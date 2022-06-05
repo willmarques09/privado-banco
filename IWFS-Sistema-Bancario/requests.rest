@@ -1,0 +1,9 @@
+POST http://localhost:3003/accounts HTTP/1.1 Content-Type: application/json
+
+{
+"name": "Letícia", "cpf": "114.231.702-00", "birthDate": "06/06/1995"
+}
+
+###
+
+GET http://localhost:3003/accounts
